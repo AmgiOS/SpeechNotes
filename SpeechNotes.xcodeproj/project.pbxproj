@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		99205B5924E301B200FD0819 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99205B5824E301B200FD0819 /* AppDelegate.swift */; };
 		99205B5B24E301B200FD0819 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99205B5A24E301B200FD0819 /* SceneDelegate.swift */; };
-		99205B5D24E301B200FD0819 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99205B5C24E301B200FD0819 /* ViewController.swift */; };
-		99205B6024E301B200FD0819 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99205B5E24E301B200FD0819 /* Main.storyboard */; };
 		99205B6324E301B200FD0819 /* SpeechNotes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 99205B6124E301B200FD0819 /* SpeechNotes.xcdatamodeld */; };
 		99205B6524E301B400FD0819 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99205B6424E301B400FD0819 /* Assets.xcassets */; };
 		99205B6824E301B400FD0819 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99205B6624E301B400FD0819 /* LaunchScreen.storyboard */; };
 		99205B7324E301B400FD0819 /* SpeechNotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99205B7224E301B400FD0819 /* SpeechNotesTests.swift */; };
+		99205B8D24E3474C00FD0819 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99205B8C24E3474C00FD0819 /* Coordinator.swift */; };
+		99205B8F24E3485200FD0819 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99205B8E24E3485200FD0819 /* AppCoordinator.swift */; };
+		99205B9224E34BC900FD0819 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99205B9024E34BC900FD0819 /* MenuViewController.swift */; };
+		99205B9324E34BC900FD0819 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99205B9124E34BC900FD0819 /* MenuViewController.xib */; };
+		99205B9824E34C3300FD0819 /* MenuCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99205B9724E34C3300FD0819 /* MenuCoordinator.swift */; };
+		99205B9A24E34C6E00FD0819 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99205B9924E34C6E00FD0819 /* MainCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,8 +35,6 @@
 		99205B5524E301B200FD0819 /* SpeechNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99205B5824E301B200FD0819 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99205B5A24E301B200FD0819 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		99205B5C24E301B200FD0819 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		99205B5F24E301B200FD0819 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		99205B6224E301B200FD0819 /* SpeechNotes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SpeechNotes.xcdatamodel; sourceTree = "<group>"; };
 		99205B6424E301B400FD0819 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99205B6724E301B400FD0819 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +42,12 @@
 		99205B6E24E301B400FD0819 /* SpeechNotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeechNotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99205B7224E301B400FD0819 /* SpeechNotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechNotesTests.swift; sourceTree = "<group>"; };
 		99205B7424E301B400FD0819 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99205B8C24E3474C00FD0819 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		99205B8E24E3485200FD0819 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		99205B9024E34BC900FD0819 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		99205B9124E34BC900FD0819 /* MenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		99205B9724E34C3300FD0819 /* MenuCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCoordinator.swift; sourceTree = "<group>"; };
+		99205B9924E34C6E00FD0819 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +89,11 @@
 		99205B5724E301B200FD0819 /* SpeechNotes */ = {
 			isa = PBXGroup;
 			children = (
-				99205B5824E301B200FD0819 /* AppDelegate.swift */,
-				99205B5A24E301B200FD0819 /* SceneDelegate.swift */,
-				99205B5C24E301B200FD0819 /* ViewController.swift */,
-				99205B5E24E301B200FD0819 /* Main.storyboard */,
-				99205B6424E301B400FD0819 /* Assets.xcassets */,
-				99205B6624E301B400FD0819 /* LaunchScreen.storyboard */,
-				99205B6924E301B400FD0819 /* Info.plist */,
-				99205B6124E301B200FD0819 /* SpeechNotes.xcdatamodeld */,
+				99205B7D24E3442D00FD0819 /* ApplicationLayer */,
+				99205B7E24E3446400FD0819 /* PresentationLayer */,
+				99205B7F24E3447400FD0819 /* BusinessLogicLayer */,
+				99205B8024E3448400FD0819 /* CoreLayer */,
+				99205B8824E3459000FD0819 /* SupportingFiles */,
 			);
 			path = SpeechNotes;
 			sourceTree = "<group>";
@@ -100,6 +105,157 @@
 				99205B7424E301B400FD0819 /* Info.plist */,
 			);
 			path = SpeechNotesTests;
+			sourceTree = "<group>";
+		};
+		99205B7D24E3442D00FD0819 /* ApplicationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				99205B5824E301B200FD0819 /* AppDelegate.swift */,
+				99205B5A24E301B200FD0819 /* SceneDelegate.swift */,
+				99205B8E24E3485200FD0819 /* AppCoordinator.swift */,
+			);
+			path = ApplicationLayer;
+			sourceTree = "<group>";
+		};
+		99205B7E24E3446400FD0819 /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				99205B8524E344BD00FD0819 /* Coordinator */,
+				99205B8424E344B300FD0819 /* Scenes */,
+			);
+			path = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		99205B7F24E3447400FD0819 /* BusinessLogicLayer */ = {
+			isa = PBXGroup;
+			children = (
+				99205B8724E3457700FD0819 /* Models */,
+				99205B8624E3457000FD0819 /* Services */,
+			);
+			path = BusinessLogicLayer;
+			sourceTree = "<group>";
+		};
+		99205B8024E3448400FD0819 /* CoreLayer */ = {
+			isa = PBXGroup;
+			children = (
+				99205B8324E344A100FD0819 /* Utilities */,
+				99205B8224E3449600FD0819 /* Ressources */,
+				99205B8124E3449000FD0819 /* UI */,
+			);
+			path = CoreLayer;
+			sourceTree = "<group>";
+		};
+		99205B8124E3449000FD0819 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		99205B8224E3449600FD0819 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		99205B8324E344A100FD0819 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		99205B8424E344B300FD0819 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				99205B8924E3467A00FD0819 /* Menu */,
+				99205B8B24E3468D00FD0819 /* Read */,
+				99205B8A24E3468400FD0819 /* Settings */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		99205B8524E344BD00FD0819 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				99205B8C24E3474C00FD0819 /* Coordinator.swift */,
+				99205B9924E34C6E00FD0819 /* MainCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		99205B8624E3457000FD0819 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		99205B8724E3457700FD0819 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				99205B6124E301B200FD0819 /* SpeechNotes.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		99205B8824E3459000FD0819 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				99205B6624E301B400FD0819 /* LaunchScreen.storyboard */,
+				99205B6424E301B400FD0819 /* Assets.xcassets */,
+				99205B6924E301B400FD0819 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		99205B8924E3467A00FD0819 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				99205B9424E34BF900FD0819 /* View */,
+				99205B9524E34C0600FD0819 /* ViewModel */,
+				99205B9624E34C0D00FD0819 /* Coordinator */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		99205B8A24E3468400FD0819 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		99205B8B24E3468D00FD0819 /* Read */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Read;
+			sourceTree = "<group>";
+		};
+		99205B9424E34BF900FD0819 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				99205B9024E34BC900FD0819 /* MenuViewController.swift */,
+				99205B9124E34BC900FD0819 /* MenuViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		99205B9524E34C0600FD0819 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		99205B9624E34C0D00FD0819 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				99205B9724E34C3300FD0819 /* MenuCoordinator.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,8 +340,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				99205B6824E301B400FD0819 /* LaunchScreen.storyboard in Resources */,
+				99205B9324E34BC900FD0819 /* MenuViewController.xib in Resources */,
 				99205B6524E301B400FD0819 /* Assets.xcassets in Resources */,
-				99205B6024E301B200FD0819 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,9 +359,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99205B5D24E301B200FD0819 /* ViewController.swift in Sources */,
+				99205B8D24E3474C00FD0819 /* Coordinator.swift in Sources */,
+				99205B9A24E34C6E00FD0819 /* MainCoordinator.swift in Sources */,
+				99205B9224E34BC900FD0819 /* MenuViewController.swift in Sources */,
 				99205B6324E301B200FD0819 /* SpeechNotes.xcdatamodeld in Sources */,
+				99205B8F24E3485200FD0819 /* AppCoordinator.swift in Sources */,
 				99205B5924E301B200FD0819 /* AppDelegate.swift in Sources */,
+				99205B9824E34C3300FD0819 /* MenuCoordinator.swift in Sources */,
 				99205B5B24E301B200FD0819 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,14 +389,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		99205B5E24E301B200FD0819 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				99205B5F24E301B200FD0819 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		99205B6624E301B400FD0819 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -298,7 +450,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -352,7 +504,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -368,7 +520,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P8N8P57QSQ;
-				INFOPLIST_FILE = SpeechNotes/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SpeechNotes/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -376,7 +529,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = fr.amgGauthier.SpeechNotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -386,7 +539,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P8N8P57QSQ;
-				INFOPLIST_FILE = SpeechNotes/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SpeechNotes/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -394,7 +548,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = fr.amgGauthier.SpeechNotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
