@@ -19,6 +19,8 @@
 		99205B9324E34BC900FD0819 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99205B9124E34BC900FD0819 /* MenuViewController.xib */; };
 		99205B9824E34C3300FD0819 /* MenuCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99205B9724E34C3300FD0819 /* MenuCoordinator.swift */; };
 		99205B9A24E34C6E00FD0819 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99205B9924E34C6E00FD0819 /* MainCoordinator.swift */; };
+		99F5D3BA24E413200038C805 /* MenuCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F5D3B924E413200038C805 /* MenuCollectionView.swift */; };
+		99F5D3BD24E415050038C805 /* MenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F5D3BC24E415050038C805 /* MenuCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		99205B9124E34BC900FD0819 /* MenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
 		99205B9724E34C3300FD0819 /* MenuCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCoordinator.swift; sourceTree = "<group>"; };
 		99205B9924E34C6E00FD0819 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		99F5D3B924E413200038C805 /* MenuCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCollectionView.swift; sourceTree = "<group>"; };
+		99F5D3BC24E415050038C805 /* MenuCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +152,8 @@
 		99205B8124E3449000FD0819 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				99F5D3BB24E414D80038C805 /* Cells */,
+				99F5D3B824E413030038C805 /* CollectionView */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -258,6 +264,22 @@
 			path = Coordinator;
 			sourceTree = "<group>";
 		};
+		99F5D3B824E413030038C805 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				99F5D3B924E413200038C805 /* MenuCollectionView.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		99F5D3BB24E414D80038C805 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				99F5D3BC24E415050038C805 /* MenuCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -363,10 +385,12 @@
 				99205B9A24E34C6E00FD0819 /* MainCoordinator.swift in Sources */,
 				99205B9224E34BC900FD0819 /* MenuViewController.swift in Sources */,
 				99205B6324E301B200FD0819 /* SpeechNotes.xcdatamodeld in Sources */,
+				99F5D3BA24E413200038C805 /* MenuCollectionView.swift in Sources */,
 				99205B8F24E3485200FD0819 /* AppCoordinator.swift in Sources */,
 				99205B5924E301B200FD0819 /* AppDelegate.swift in Sources */,
 				99205B9824E34C3300FD0819 /* MenuCoordinator.swift in Sources */,
 				99205B5B24E301B200FD0819 /* SceneDelegate.swift in Sources */,
+				99F5D3BD24E415050038C805 /* MenuCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

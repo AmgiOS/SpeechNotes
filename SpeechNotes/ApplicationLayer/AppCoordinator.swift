@@ -30,6 +30,8 @@ class Appcoordinator: Coordinator {
         window.rootViewController = navigationController
         window.makeKeyAndVisible()
         
+        startCoordinator = MenuCoordinator(navigationController: navigationController)
+        
         guard let nextCoordinator = startCoordinator else { return }
         coordinate(to: nextCoordinator)
     }
