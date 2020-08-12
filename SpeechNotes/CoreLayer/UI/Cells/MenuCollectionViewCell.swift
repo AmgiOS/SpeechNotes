@@ -10,11 +10,6 @@ import UIKit
 
 class MenuCollectionViewCell: UICollectionViewCell {
     
-    override func layoutSubviews() {
-        super.layoutSubviews()
-        setUICell()
-    }
-    
     // MARK: - Private Properties
     
     private lazy var titleCell: UILabel = {
@@ -32,6 +27,24 @@ class MenuCollectionViewCell: UICollectionViewCell {
         addSubview(label)
         return label
     }()
+    
+    // MARK: - Override
+    
+    override var reuseIdentifier: String? {
+        return "menuCell"
+    }
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        setUICell()
+    }
+    
+    // MARK: - Public Methods
+    
+    public func configureCell(notes: Notes) {
+        titleCell.text = notes.title
+        descriptionCell.text = notes.descriptionText
+    }
     
     // MARK: - Private Methods
     

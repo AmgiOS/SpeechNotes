@@ -21,6 +21,7 @@
 		99205B9A24E34C6E00FD0819 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99205B9924E34C6E00FD0819 /* MainCoordinator.swift */; };
 		99F5D3BA24E413200038C805 /* MenuCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F5D3B924E413200038C805 /* MenuCollectionView.swift */; };
 		99F5D3BD24E415050038C805 /* MenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F5D3BC24E415050038C805 /* MenuCollectionViewCell.swift */; };
+		99F5D3C024E419DB0038C805 /* NotesEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F5D3BF24E419DB0038C805 /* NotesEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		99205B9924E34C6E00FD0819 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		99F5D3B924E413200038C805 /* MenuCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCollectionView.swift; sourceTree = "<group>"; };
 		99F5D3BC24E415050038C805 /* MenuCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCollectionViewCell.swift; sourceTree = "<group>"; };
+		99F5D3BF24E419DB0038C805 /* NotesEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesEntity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,8 +154,8 @@
 		99205B8124E3449000FD0819 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				99F5D3BB24E414D80038C805 /* Cells */,
 				99F5D3B824E413030038C805 /* CollectionView */,
+				99F5D3BB24E414D80038C805 /* Cells */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -201,6 +203,7 @@
 		99205B8724E3457700FD0819 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				99F5D3BE24E419CD0038C805 /* Notes */,
 				99205B6124E301B200FD0819 /* SpeechNotes.xcdatamodeld */,
 			);
 			path = Models;
@@ -278,6 +281,14 @@
 				99F5D3BC24E415050038C805 /* MenuCollectionViewCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		99F5D3BE24E419CD0038C805 /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				99F5D3BF24E419DB0038C805 /* NotesEntity.swift */,
+			);
+			path = Notes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -390,6 +401,7 @@
 				99205B5924E301B200FD0819 /* AppDelegate.swift in Sources */,
 				99205B9824E34C3300FD0819 /* MenuCoordinator.swift in Sources */,
 				99205B5B24E301B200FD0819 /* SceneDelegate.swift in Sources */,
+				99F5D3C024E419DB0038C805 /* NotesEntity.swift in Sources */,
 				99F5D3BD24E415050038C805 /* MenuCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
